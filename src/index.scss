@@ -1,0 +1,22 @@
+@import "https://fonts.googleapis.com/css2?family=Solitreo&display=swap";
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+
+  font-size: 62.5%;
+  font-family: Solitreo, cursive;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  background-color: #fff0f5;
+  display: flex;
+}

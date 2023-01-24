@@ -1,0 +1,133 @@
+$color-main: #d8315b;
+$color-secondary: #1e1b18;
+$color-main-light: lighten($color-secondary, 20%);
+$color-background: #fffaff;
+$color-error: #f40009;
+$font-main: 1.7rem;
+$font-tip: 2.5rem;
+
+.App {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+
+  border: 0.2rem outset $color-secondary;
+  border-radius: 0.5rem;
+
+  width: 60rem;
+  height: 33rem;
+  margin-top: 10rem;
+
+  background-color: $color-background;
+
+  p {
+    color: $color-main;
+
+    font-size: $font-main;
+    font-weight: 800;
+  }
+
+  input {
+    color: $color-secondary;
+    font-weight: 700;
+    font-family: Solitreo, cursive;
+
+    text-align: left;
+
+    padding-top: 0.5rem;
+  }
+}
+
+.containerOne {
+  display: flex;
+  flex-direction: column;
+  width: 30rem;
+  height: 29rem;
+
+  input {
+    background-color: #fff0f5;
+
+    height: 3rem;
+
+    margin-left: 1rem;
+    font-size: $font-main;
+
+    border-radius: 0.3rem;
+  }
+}
+
+.btnContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-left: 1rem;
+
+  input {
+    position: relative;
+    right: 1rem;
+    width: 8rem;
+    height: 2.9rem;
+
+    border: 0.2rem solid $color-secondary;
+  }
+}
+
+.tipButton {
+  display: inline-block;
+
+  width: 8rem;
+  height: 3rem;
+
+  border-radius: 0.3rem;
+  background-color: $color-secondary;
+
+  margin-bottom: 0.3rem;
+
+  font-family: Solitreo, cursive;
+
+  &:hover {
+    cursor: pointer;
+    background-color: $color-main-light;
+  }
+
+  span {
+    font-size: $font-main;
+    color: $color-main;
+  }
+}
+
+.containerTwo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  margin: 1rem;
+
+  border: 1rem solid $color-secondary;
+  border-radius: 0.3rem;
+
+  background-color: #1e1b18;
+  color: $color-main;
+  font-size: 2rem;
+
+  span {
+    font-size: $font-tip;
+    font-weight: 900;
+    color: $color-main;
+  }
+}
+
+.error {
+  font-family: Solitreo, cursive;
+  font-size: $font-main;
+  color: $color-error;
+}
+
+.errorInput {
+  border: 2px solid $color-error;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  appearance: none;
+  margin: 0;
+}
