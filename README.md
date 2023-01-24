@@ -4,7 +4,7 @@ Tip Calculator🧮
 
 ## Description
 
-It's Tip Calculator created with ⚛️React using 🌀TypeScript!
+It's Tip Calculator, created with ⚛️React using 🌀TypeScript!
 
 ## Usage
 
