@@ -1,13 +1,10 @@
 # Project Title
-
 Tip Calculator🧮
 
 ## Description
-
 It's Tip Calculator, created with ⚛️React using 🌀TypeScript!
 
 ## Usage
-
 You can calculate total Tip amount and every person you can calculate tip share per person!
 
 ## How To Install and Run
